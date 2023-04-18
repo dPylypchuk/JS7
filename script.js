@@ -34,33 +34,33 @@ console.log(users)
 
 
 
-let newOrder = {
-    product : `PC` ,
-    price : 2500,
-    count : 2
-} 
-let user = {
-    name: `Alex`,
-    age : 23,
-    mail: `alex@gmail.com` ,
-    orders :[
-        {
-            product : `Phone` ,
-            price :300,
-            count : 1
-        }
-    ],
-    sum : 300
-}
-user = {
-    ...user,
-    order : {
-        ...user.order,
-        {
-                ...newOrder
-        }
-    },
-    sum : user.sum + newOrder.price * newOrder.count
-}
+//let newOrder = {
+//    product : `PC` ,
+//    price : 2500,
+//    count : 2
+//} 
+//let user = {
+//    name: `Alex`,
+//    age : 23,
+//    mail: `alex@gmail.com` ,
+//    orders :[
+//       {
+//            product : `Phone` ,
+//            price :300,
+//            count : 1
+//        }
+//    ],
+//    sum : 300
+//}
+//user = {
+//   ...user,
+//    order : {
+//        ...user.order,
+//        {
+//                ...newOrder
+//        }
+//    },
+//    sum : user.sum + newOrder.price * newOrder.count
+//}
 
-console.log(user)
+//console.log(user)
